@@ -378,7 +378,7 @@ section {
 	background: transparent;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1180px) {
 	.header {
 		padding: 0 1rem;
 	}
@@ -415,15 +415,7 @@ section {
 		font-size: 1.5rem;
 		cursor: pointer;
 	}
-}
-
-@media (max-width: 890px) {
-	.product-card-container {
-		grid-template-columns: 1fr;
-	}
-}
-
-@media (max-width: 768px) {
+	
 	.home-container {
 		flex-direction: column;
 	}
@@ -446,7 +438,15 @@ section {
 	.more-link {
 		margin-left: 1rem;
 	}
+}
 
+@media (max-width: 890px) {
+	.product-card-container {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 768px) {
 	.img-container {
 		width: 100%;
 	}
