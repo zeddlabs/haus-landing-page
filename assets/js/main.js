@@ -36,11 +36,9 @@ sr.reveal('.section-title', {})
 sr.reveal('.section-text', {delay: 200})
 sr.reveal('.img-container', {})
 
-sr.reveal('.card-container', {delay: 200})
 sr.reveal('.card', {delay: 200})
 sr.reveal('.dftr-rumah-btn', {})
 
-sr.reveal('.product-card-container', {delay: 200})
 sr.reveal('.product-card', {delay: 200})
 
 sr.reveal('.subcription-box', {delay: 200})
